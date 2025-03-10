@@ -18,9 +18,9 @@ This is a Face Recognition System built using OpenCV, LBPH Face Recognizer, and 
  ┃ ┣ 📜 haarface.xml (Haar Cascade for face detection)
  ┃ ┣ 📜 TrainedLBPH.yml (Trained LBPH model, generated after training)
  ┣ 📂 faces (Folder containing captured images for training)
- ┣ 📜 capture_faces.py (Captures and stores images for training)
- ┣ 📜 train_model.py (Trains LBPH model on stored images)
- ┣ 📜 recognize_faces.py (GUI application for real-time recognition)
+ ┣ 📜 CaptureFaces.py (Captures and stores images for training)
+ ┣ 📜 TrainModel.py (Trains LBPH model on stored images)
+ ┣ 📜 RecognizeFaces.py (GUI application for real-time recognition)
  ┣ 📜 id-names.csv (CSV file storing user ID and names)
 ```
 
