@@ -87,6 +87,15 @@ python recognize_faces.py
 - ![Pandas](https://img.shields.io/badge/Pandas-Dataframe-blue?logo=pandas&logoColor=white)
 
 ---
+## 🔍 Algorithm Used
+We utilize the **Local Binary Pattern Histogram (LBPH)** for training and recognizing faces. It is robust against lighting variations and works well with small datasets. More about the LBPH algorithm [here](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b).
+
+---
+## 📌 Acknowledgments
+This project is inspired by [leodlca's LBPH Face Recognition](https://github.com/leodlca/lbph-face-recognition).  
+For face detection, we use OpenCV's Haar Cascade classifier: [`haarcascade_frontalface_alt.xml`](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt.xml).
+
+---
 ## 🤝 Contributing
 Feel free to contribute by improving the model, enhancing the GUI, or optimizing the recognition system. 
 
