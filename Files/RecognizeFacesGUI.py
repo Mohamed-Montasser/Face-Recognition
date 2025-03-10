@@ -1,3 +1,7 @@
+# Copyright 2025 by Mohamed Montasser.
+# All rights reserved.
+# This file is part of the Face Recognition System Project.
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import cv2 as cv
