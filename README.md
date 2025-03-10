@@ -107,3 +107,6 @@ Feel free to contribute by improving the model, enhancing the GUI, or optimizing
 ---
 ## 📝 License
 This project is open-source and free to use under the MIT License.
+
+---
+🔗 **Developed by Mohamed Montasser**
