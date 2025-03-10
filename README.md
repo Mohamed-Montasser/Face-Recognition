@@ -20,7 +20,7 @@ This is a Face Recognition System built using OpenCV, LBPH Face Recognizer, and 
  ┣ 📂 faces (Folder containing captured images for training)
  ┣ 📜 CaptureFaces.py (Captures and stores images for training)
  ┣ 📜 TrainModel.py (Trains LBPH model on stored images)
- ┣ 📜 RecognizeFaces.py (GUI application for real-time recognition)
+ ┣ 📜 RecognizeFacesGUI.py (GUI application for real-time recognition)
  ┣ 📜 id-names.csv (CSV file storing user ID and names)
 ```
 
@@ -43,9 +43,9 @@ pip install opencv-python numpy pandas
 ---
 ## 🏗 Usage
 ### 1️⃣ Capture Faces
-Run the `capture_faces.py` script to start collecting images for face recognition.
+Run the `CaptureFaces.py` script to start collecting images for face recognition.
 ```bash
-python capture_faces.py
+python CaptureFaces.py
 ```
 - Enter a unique ID when prompted.
 - Position your face within the red rectangle and press `s` to capture images.
@@ -55,14 +55,14 @@ python capture_faces.py
 ### 2️⃣ Train the Model
 Once faces are captured, train the model by running:
 ```bash
-python train_model.py
+python TrainModel.py
 ```
 - This will create `TrainedLBPH.yml` inside the `Classifiers` folder.
 
 ### 3️⃣ Run Face Recognition
 To recognize faces in real-time, run:
 ```bash
-python recognize_faces.py
+python RecognizeFacesGUI.py
 ```
 - Load the `id-names.csv` file when prompted.
 - Click **Start Recognition** to detect faces.
