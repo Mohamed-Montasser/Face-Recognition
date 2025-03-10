@@ -18,7 +18,7 @@ This is a Face Recognition System built using OpenCV, LBPH Face Recognizer, and 
  ┃ ┣ 📜 haarface.xml (Haar Cascade for face detection)
  ┃ ┣ 📜 TrainedLBPH.yml (Trained LBPH model, generated after training)
  ┣ 📂 faces (Folder containing captured images for training)
- ┣ 📜 CaptureFaces.py (Captures and stores images for training)
+ ┣ 📜 CaptureImages.py (Captures and stores images for training)
  ┣ 📜 TrainModel.py (Trains LBPH model on stored images)
  ┣ 📜 RecognizeFacesGUI.py (GUI application for real-time recognition)
  ┣ 📜 id-names.csv (CSV file storing user ID and names)
@@ -43,9 +43,9 @@ pip install opencv-python numpy pandas
 ---
 ## 🏗 Usage
 ### 1️⃣ Capture Faces
-Run the `CaptureFaces.py` script to start collecting images for face recognition.
+Run the `CaptureImages.py` script to start collecting images for face recognition.
 ```bash
-python CaptureFaces.py
+python CaptureImages.py
 ```
 - Enter a unique ID when prompted.
 - Position your face within the red rectangle and press `s` to capture images.
